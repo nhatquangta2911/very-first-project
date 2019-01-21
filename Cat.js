@@ -1,6 +1,5 @@
 function Cat() {
-  name: 'Tom',
-  color: 'Black'
+  this.stomach = [];
 }
 
 module.exports = Cat;
