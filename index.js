@@ -1,9 +1,8 @@
 var Cat = require('./Cat');
+var Mouse = require('./Mouse');
 
-var tomA = new Cat('Tom');
-var tomB = new Cat('TomTom');
-var tomC = new Cat('TomTomTom');
+var tom = new Cat('Tom');
+var jerry = new Mouse('Jerry');
 
-tomA.sayHi();
-tomB.sayHi();
-tomC.sayHi();
+tom.eat(jerry);
+console.log(tom);
